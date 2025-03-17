@@ -25,8 +25,8 @@ def read_and_split_csv(file_path, max_lines=1000):
     
     return split_lines
 
-# Example usage
-# Assuming the file is in 'MyDrive' within your Google Drive
+# 
+# file is in 'MyDrive' in Google Drive
 file_path = '/content/drive/MyDrive/lego_setsHB.csv'  # Update with the correct path in your Drive
 split_lines = read_and_split_csv(file_path, max_lines=1000)
 
